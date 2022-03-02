@@ -1,16 +1,16 @@
 # Project information
-site_name: "MkDocs Material Boilerplate"
-site_description: "MkDocs Material Boilerplate (Starter Kit) - Deploy documentation to hosting platforms (Netlify, GitHub Pages, GitLab Pages, and AWS Amplify Console) with Docker, pipenv, and GitHub Actions."
-site_author: "peaceiris"
+site_name: "Easy Enemies 1.0"
+site_description: "Roblox Easy Enemies Plugin API & Documentation"
+site_author: "The_Pr0fessor"
 site_url: "https://mkdocs.peaceiris.com/"
 
 # Copyright
-copyright: "&copy; 2021 peaceiris"
+copyright: "&copy; 2021 The_Pr0fessor"
 
 # Repository
 repo_name: "GitHub"
-repo_url: "https://github.com/peaceiris/mkdocs-material-boilerplate"
-edit_uri: "https://github.com/peaceiris/mkdocs-material-boilerplate/edit/main/docs_sample"
+repo_url: "https://github.com/Th3Pr0fessor/Easy-Enemies"
+edit_uri: "https://github.com/Th3Pr0fessor/Easy-Enemies/edit/main/docs_sample"
 
 # Configuration
 docs_dir: "docs_sample"
@@ -23,21 +23,25 @@ theme:
     previous: 80 # p
     search: 83 # s
   palette:
-    primary: "blue"
-    accent: "blue"
+    scheme: slate
+    primary: "red"
+    accent: "red"
   features:
     - tabs
   #font:
   #text: 'Ubuntu'
   #code: 'Ubuntu Mono'
   #icon:
-  #logo: 'images/logo.svg'
+  logo: "images/logo.png"
   #favicon: 'assets/images/favicon.ico'
 
 # Extensions
 markdown_extensions:
   - admonition
   - codehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
   - footnotes
   - mdx_math:
       enable_dollar_delimiter: true
@@ -67,21 +71,12 @@ extra:
 # Page tree
 nav:
   - "Home": "index.md"
-  - "Material for MkDocs": "material-for-mkdocs.md"
-  - "Getting started":
-      - "Download boilerplate": "getting-started/download-boilerplate.md"
-      - "pipenv": "getting-started/pipenv.md"
-      - "invoke": "getting-started/invoke.md"
-      - "Docker": "getting-started/docker.md"
-      - "pip": "getting-started/pip.md"
+  - "Guides":
+      - "Getting Started": "guides/start.md" #"getting-started.md"
   - "Hosting and Deployment":
       - "Combinations": "hosting-and-deployment/combinations.md"
-      - "Netlify": "hosting-and-deployment/netlify.md"
-      - "GitHub Pages": "hosting-and-deployment/github-pages.md"
-      - "GitLab Pages": "hosting-and-deployment/gitlab-pages.md"
-      - "AWS Amplify Console": "hosting-and-deployment/aws-amplify-console.md"
-  - "Extensions":
-      - "MathJax": "extensions/mathjax.md"
-      - "Code Hilite": "extensions/code-hilite.md"
-      - "Footnote": "extensions/footnote.md"
+  - "Used Modules":
+      - "Simple Path": "extensions/simplepath.md"
+      - "Janitor": "extensions/janitor.md"
+
   - "License": "license.md"

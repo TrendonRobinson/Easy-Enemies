@@ -1,4 +1,5 @@
 # Project information
+# // inv serve --config-file mkdocs-sample.yml
 site_name: "Easy Enemies 1.0"
 site_description: "Roblox Easy Enemies Plugin API & Documentation"
 site_author: "The_Pr0fessor"

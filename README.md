@@ -1,66 +1,17 @@
-<h1 align="center">
-<img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/main/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
-<br>MkDocs Material<br>Boilerplate - Starter Kit
-</h1>
+# Home
 
-![Eyecatch image of MkDocs Material Boilerplate (Starter Kit)](https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/main/docs_sample/images/material.png)
+EasyEnemies is an open-source Enemy module that can help you quickly make functional enemies in your games.
 
+## Why choose EasyEnemies?
 
+EasyEnemies aims to cut the amount of time it takes to typically set up enemies in a typical roblox game by having the core foundations of an enemy ai already coded. EveryEnemy registered by the module is stored under the models tag name or model name in a hash table to keep track of either individual enemies or a collection of them. There are a list of settings that you can change to get each enemy to fit your game in the best way possible. In the near future EasyEnemies will be functional with non-humanoid models to aid performance.
 
-[![license](https://img.shields.io/github/license/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/blob/main/LICENSE)
-[![release](https://img.shields.io/github/release/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/releases/latest)
-[![GitHub release date](https://img.shields.io/github/release-date/peaceiris/mkdocs-material-boilerplate.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/releases)
-[![GitHub Actions status](https://github.com/peaceiris/mkdocs-material-boilerplate/workflows/github%20pages/badge.svg)](https://github.com/peaceiris/mkdocs-material-boilerplate/actions)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9c95ccf4-5c1e-447b-8025-dd0b6f8764a5/deploy-status)](https://app.netlify.com/sites/mkdocs-material/deploys)
-
-<!-- https://shields.io/ -->
-
-
-
-## Details
-
-Read more 👉 [Documentation - MkDocs Material Boilerplate]
-
-[Documentation - MkDocs Material Boilerplate]: https://peaceiris.github.io/mkdocs-material-boilerplate/
-
-
-
-## Quick start
-
-```sh
-git clone https://github.com/peaceiris/mkdocs-material-boilerplate.git
-cd mkdocs-material-boilerplate
-pipenv sync --dev
-pipenv shell
-inv serve --config-file mkdocs-sample.yml
-```
-
-
+To get started visit **[Getting Started](./guides//start.md)**.
 
 ## Links
 
-- [mkdocs/mkdocs: Project documentation with Markdown - GitHub]
-- [squidfunk/mkdocs-material: A Material Design theme for MkDocs]
+- [github]
+- [roblox Library]
 
-[mkdocs/mkdocs: Project documentation with Markdown - GitHub]: https://github.com/mkdocs/mkdocs/
-[squidfunk/mkdocs-material: A Material Design theme for MkDocs]: https://github.com/squidfunk/mkdocs-material
-
-
-
-## License
-
-- [MIT License]
-- [The graduate cap icon] made by [Freepik] from [www.flaticon.com] is licensed by [CC 3.0 BY]
-
-[MIT License]: https://github.com/peaceiris/mkdocs-material-boilerplate/blob/main/LICENSE
-[The graduate cap icon]: https://www.flaticon.com/free-icon/graduate-cap_62627
-[Freepik]: https://www.freepik.com/
-[www.flaticon.com]: https://www.flaticon.com/
-[CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/
-
-
-
-## About Maintainer
-
-- [peaceiris Homepage](https://peaceiris.com/)
+[github]: https://github.com/mkdocs/mkdocs/
+[roblox library]: https://github.com/squidfunk/mkdocs-material

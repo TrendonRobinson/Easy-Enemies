@@ -73,6 +73,7 @@ nav:
   - "Home": "index.md"
   - "Guides":
       - "Getting Started": "guides/start.md" #"getting-started.md"
+      - "Enemy Settings": "guides/settings.md"
   - "Hosting and Deployment":
       - "Combinations": "hosting-and-deployment/combinations.md"
   - "Used Modules":

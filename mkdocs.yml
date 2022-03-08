@@ -1,8 +1,9 @@
 # Project information
+# // inv serve --config-file mkdocs-sample.yml
 site_name: "EasyEnemies"
 site_description: "Roblox Easy Enemies Plugin API & Documentation"
 site_author: "The_Pr0fessor"
-site_url: "https://trendonrobinson.github.io/EasyEnemies"
+site_url: "https://mkdocs.peaceiris.com/"
 
 # Copyright
 copyright: "&copy; 2021 The_Pr0fessor"
@@ -74,10 +75,8 @@ nav:
   - "Guides":
       - "Getting Started": "guides/start.md" #"getting-started.md"
       - "Enemy Settings": "guides/settings.md"
-  - "Hosting and Deployment":
-      - "Combinations": "hosting-and-deployment/combinations.md"
   - "Used Modules":
       - "Simple Path": "extensions/simplepath.md"
       - "Janitor": "extensions/janitor.md"
 
-  - "License": "license.md"
+  # - "License": "license.md"

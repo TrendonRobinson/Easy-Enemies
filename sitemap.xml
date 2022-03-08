@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mkdocs.peaceiris.com/</loc>
-         <lastmod>2022-03-02</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mkdocs.peaceiris.com/license/</loc>
-         <lastmod>2022-03-02</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mkdocs.peaceiris.com/extensions/janitor/</loc>
-         <lastmod>2022-03-02</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mkdocs.peaceiris.com/extensions/simplepath/</loc>
-         <lastmod>2022-03-02</lastmod>
+         <lastmod>2022-03-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mkdocs.peaceiris.com/guides/settings/</loc>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mkdocs.peaceiris.com/guides/start/</loc>
-         <lastmod>2022-03-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mkdocs.peaceiris.com/hosting-and-deployment/combinations/</loc>
-         <lastmod>2022-03-02</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
